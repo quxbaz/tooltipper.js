@@ -1,0 +1,10 @@
+{
+
+    "tooltip a":
+    {
+      "selectors": ["p"],
+      "options": {"hook": "leftmiddle"},
+      "message": "hello"
+    }
+
+}

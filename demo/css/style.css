@@ -1,0 +1,35 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+  font:12px verdana;
+}
+
+#wrapper {
+  border:1px solid #ccc;
+  margin:20px auto;
+  padding:20px;
+  width:960px;
+}
+
+p {
+  margin:16px 0;
+  text-align:justify;
+}
+
+.paragraphs {
+  border-right:1px dashed #bbb;
+  padding-right:10px;
+  width:600px;
+}
+
+#pic {
+  margin-top:4px;
+}
+
+input[type="button"] {
+  padding:2px 8px;
+  margin-right:6px;
+}

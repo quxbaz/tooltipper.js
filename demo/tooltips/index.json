@@ -1,0 +1,51 @@
+{
+
+    "tooltip a":
+    {
+      "selectors": ["#btn-1"],
+      "options": {"hook": "leftmiddle"},
+      "message": "Create and delegate items #1"
+    },
+
+    "tooltip b":
+    {
+        "selectors": ["#btn-2"],
+        "options": {"hook": "rightmiddle"},
+        "message": "Create and delegate items #2"
+    },
+
+    "tooltip c":
+    {
+        "selectors": ["#btn-3"],
+        "options": {"skin": "dark"},
+        "message": "A dark tooltip"
+    },
+
+    "tooltip d":
+    {
+        "selectors": ["#btn-4"],
+        "message": "Button 4"
+    },
+
+    "image tooltips":
+    {
+        "selectors": ["img"],
+        "message": "Google"
+    },
+
+    "p tooltips":
+    {
+        "selectors": ["p"],
+        "options": {"target": "mouse"},
+        "message": "A paragraph element"
+    },
+
+    "added":
+    {
+        "delegates": ["ul"],
+        "selectors": ["li"],
+        "options": {"hook": "leftmiddle"},
+        "message": "Delegated tooltip"
+    }
+
+}
